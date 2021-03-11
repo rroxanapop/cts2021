@@ -15,10 +15,12 @@ public abstract class Vehicle implements Cloneable {
 	}
 
 	public String getName() {
+
 		return name;
 	}
 
 	public int getSpeed() {
+
 		return speed;
 	}
 	

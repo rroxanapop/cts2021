@@ -13,7 +13,7 @@ public class Main {
 	public static void main(String[] args) {
 		Car car = new Car("Dacia", 90, "black", 1400);
 		System.out.println(car);
-		
+
 		Taxable t = car;
 		double tax = t.computeTax();
 		System.out.println(tax);
@@ -31,8 +31,10 @@ public class Main {
 				e.printStackTrace();
 			}
 		}
+
 		Integer x = 5;
 		int y = x;
+
 		System.out.println(y);
 		
 		List<Integer> list = new ArrayList<>();
@@ -46,7 +48,9 @@ public class Main {
 		
 		list.remove(2);
 		list.add(1, 3);
+
 		System.out.println();
+
 		for(Integer i : list) {
 			System.out.println(i);
 		}

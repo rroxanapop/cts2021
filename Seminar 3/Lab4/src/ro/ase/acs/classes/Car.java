@@ -19,24 +19,29 @@ public final class Car extends Vehicle implements Taxable {
 	}
 	
 	public String getColor() {
+
 		return color;
 	}
 
 	public void setColor(String color) {
+
 		this.color = color;
 	}
 
 	public int getCapacity() {
+
 		return capacity;
 	}
 
 	public void setCapacity(int capacity) {
+
 		this.capacity = capacity;
 	}
 
 	@Override
 	public double computeTax() {
 		float tax = 0;
+
 		if(capacity < 2000) {
 			tax = (float)capacity / 1000 * 50;
 		}
@@ -48,6 +53,7 @@ public final class Car extends Vehicle implements Taxable {
 
 	@Override
 	public final void move() {
+
 		System.out.println("The car is moving");
 	}
 
